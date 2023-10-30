@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/* common parts */
+body {
+    margin: 64px;
+    background-color: #eee;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    user-select: none;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 16px;
+    box-shadow: 1px 1px 3px 0 rgb(77, 77, 77);
+}
+
+.drink-card {
+    position: relative;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.drink-card > button {
+    width: 100%;
+}
+
+.drink-card > div {
+    position: absolute;
+    display: inline;
+    top: -10px;
+    right: -10px;
+    color: white;
+    background-color: red;
+    width: 28px;
+    height: 28px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.calc {
+    background-color: white;
+    width: 300px;
+    height: 160px;
+    text-align: center;
+    margin-left: 32px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px 0 rgb(66, 66, 66);
+    border-radius: 24px;
+}
+
+.calc > h1 {
+    border-bottom: 1px solid gray;
+}
+
+.calc > p {
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
