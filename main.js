@@ -39,6 +39,12 @@
 
         totalFee += coffeeFee;
         document.getElementById('price').textContent = totalFee;
+
+        //個数が3桁を超えそうになったらalertを出して
+        if (totalCount === 100) {
+            alert('最大99個までです。');
+            window.location.reload();
+        }
     });
 
     tea.addEventListener('click', () => {
@@ -51,6 +57,12 @@
 
         totalFee += teaFee;
         document.getElementById('price').textContent = totalFee
+
+        //個数が3桁を超えそうになったらalertを出して
+        if (totalCount === 100) {
+            alert('最大99個までです。');
+            window.location.reload();
+        }
     });
 
     milk.addEventListener('click', () => {
@@ -63,6 +75,12 @@
 
         totalFee += milkFee;
         document.getElementById('price').textContent = totalFee;
+
+        //個数が3桁を超えそうになったらalertを出して
+        if (totalCount === 100) {
+            alert('最大99個までです。');
+            window.location.reload();
+        }
     });
 
     coke.addEventListener('click', () => {
@@ -75,6 +93,12 @@
 
         totalFee += cokeFee;
         document.getElementById('price').textContent = totalFee;
+
+        //個数が3桁を超えそうになったらalertを出して
+        if (totalCount === 100) {
+            alert('最大99個までです。');
+            window.location.reload();
+        }
     });
 
     beer.addEventListener('click', () => {
@@ -87,5 +111,12 @@
         
         totalFee += beerFee;
         document.getElementById('price').textContent = totalFee;
+
+        //個数が3桁を超えそうになったらalertを出して
+        if (totalCount === 100) {
+            alert('最大99個までです。');  
+            window.location.reload();
+        }
     });
+    
 }

@@ -24,7 +24,13 @@ button {
     border: 1px solid black;
     cursor: pointer;
     border-radius: 16px;
-    box-shadow: 1px 1px 3px 0 rgb(77, 77, 77);
+    box-shadow: 0 5px black;
+}
+
+button:active {
+    transform: translateY(5px);
+    box-shadow: none;
+    transition: transfrom .2s;
 }
 
 .drink-card {
@@ -50,7 +56,6 @@ button {
     font-weight: bold;
     border-radius: 50%;
     text-align: center;
-    vertical-align: middle;
 }
 
 .container {
@@ -61,7 +66,7 @@ button {
 .calc {
     background-color: white;
     width: 300px;
-    height: 160px;
+    height: 200px;
     text-align: center;
     margin-left: 32px;
     border: 1px solid black;
@@ -75,7 +80,7 @@ button {
 
 .calc > p {
     padding: 16px;
-    font-size: 16px;
+    font-size: 28px;
     font-weight: bold;
 }
 
